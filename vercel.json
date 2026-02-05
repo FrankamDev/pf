@@ -1,0 +1,14 @@
+{
+  "headers": [
+    {
+      "source": "/desktop_pc/scene.gltf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "model/gltf+json"
+        }
+      ]
+    }
+  ],
+  "installCommand": "pnpm install --frozen-lockfile"
+}

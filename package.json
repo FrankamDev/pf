@@ -1,0 +1,47 @@
+{
+  "name": "3dfolio",
+  "private": false,
+  "homepage": "https://Frankam487.github.io/FrankamDev",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "3.12.1",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "@splinetool/react-spline": "^4.1.0",
+    "framer-motion": "9.1.7",
+    "lightgallery": "^2.9.0",
+    "lucide-react": "^0.563.0",
+    "maath": "0.5.3",
+    "ogl": "^1.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "5.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "1.7.308",
+    "react-responsive": "^10.0.1",
+    "react-router-dom": "^6.30.3",
+    "react-vertical-timeline-component": "3.6.0",
+    "react-window": "1.8.11",
+    "sass": "1.92.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.24",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "3.1.0",
+    "autoprefixer": "10.4.21",
+    "gh-pages": "6.3.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.17",
+    "vite": "4.5.14"
+  }
+}
