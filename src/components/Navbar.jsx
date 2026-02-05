@@ -2,12 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
-// Remplace ceci par ton vrai tableau de liens si besoin
 const navLinks = [
-  { id: "features", title: "Fonctionnalités" },
+  // { id: "features", title: "Fonctionnalités" },
   { id: "pricing", title: "Tarifs" },
-  { id: "testimonials", title: "Avis" },
-  { id: "faq", title: "FAQ" },
+  { id: "project", title: "Avis" },
+  { id: "contact", title: "Contact" },
 ];
 
 const Navbar = () => {
@@ -16,9 +15,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 80);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 80);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -48,13 +45,7 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            {/* Tu peux remettre ton image si tu veux */}
-            {/* <img
-              src="./banner.jpg"
-              alt="FrankamDev"
-              className="w-9 h-9 rounded-full object-cover transition-transform duration-300 group-hover:scale-110"
-            /> */}
-            <span className="text-2xl md:text-3xl font-bold tracking-tight">
+            <span className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight">
               <span className="text-white">Frankam</span>
               <span className="text-cyan-400">Dev</span>
             </span>
@@ -68,7 +59,9 @@ const Navbar = () => {
                 href={`#${nav.id}`}
                 className={`
                   text-base font-medium transition-all duration-300 relative group
-                  ${active === nav.title ? "text-cyan-400" : "text-gray-200 hover:text-white"}
+                  ${active === nav.title
+                    ? "text-cyan-400"
+                    : "text-gray-200 hover:text-white"}
                 `}
                 onClick={() => setActive(nav.title)}
               >
@@ -85,15 +78,11 @@ const Navbar = () => {
 
           {/* Burger button mobile */}
           <button
-            className="md:hidden p-2.5 rounded-full hover:bg-slate-800/60 transition-all duration-200 active:scale-95"
+            className="md:hidden p-3 rounded-full hover:bg-slate-800/60 transition-all duration-200 active:scale-95"
             onClick={() => setToggle(!toggle)}
             aria-label="Menu mobile"
           >
-            {toggle ? (
-              <X className="w-7 h-7 text-cyan-300" />
-            ) : (
-              <Menu className="w-7 h-7 text-cyan-300" />
-            )}
+            {toggle ? <X className="w-7 h-7 text-cyan-300" /> : <Menu className="w-7 h-7 text-cyan-300" />}
           </button>
         </div>
       </div>
@@ -108,8 +97,8 @@ const Navbar = () => {
       >
         <div
           className={`
-            absolute top-0 right-0 h-full w-4/5 max-w-sm bg-slate-950/98 backdrop-blur-xl border-l border-slate-800
-            transition-transform duration-500 ease-out
+            absolute top-0 right-0 h-full w-4/5 max-w-sm bg-slate-950/95 backdrop-blur-2xl border-l border-slate-800
+            transition-transform duration-500 ease-in-out
             ${toggle ? "translate-x-0" : "translate-x-full"}
           `}
           onClick={(e) => e.stopPropagation()}
@@ -130,13 +119,13 @@ const Navbar = () => {
             </div>
 
             {/* Liens */}
-            <div className="flex-1 overflow-y-auto py-8 px-6 space-y-2">
+            <div className="flex-1 overflow-y-auto py-12 px-6 space-y-4 text-xl">
               {navLinks.map((nav) => (
                 <a
                   key={nav.id}
                   href={`#${nav.id}`}
                   className={`
-                    block px-6 py-4 text-lg font-medium rounded-xl transition duration-300
+                    block px-6 py-4 font-medium rounded-xl transition duration-300
                     ${active === nav.title
                       ? "bg-slate-800/70 text-cyan-400"
                       : "text-gray-200 hover:bg-slate-800/50 hover:text-white"}

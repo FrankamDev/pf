@@ -150,26 +150,27 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Projets GitHub",
-    description:
-      "Projets personnels et collaboratifs sur GitHub, démontrant mes compétences en développement web full-stack.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "laravel", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/Frankam487",
-  },
+  // {
+  //   name: "Projets GitHub",
+  //   description:
+  //     "Projets personnels et collaboratifs sur GitHub, démontrant mes compétences en développement web full-stack.",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "laravel", color: "green-text-gradient" },
+  //     { name: "tailwind", color: "pink-text-gradient" },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/Frankam487",
+  // },
   {
     name: "Omiie Technologies",
     description:
       "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "tailwindCSS", color: "green-text-gradient" },
-      { name: "scss", color: "pink-text-gradient" },
+      { name: "Laravel", color: "blue-text-gradient" },
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
     ],
     image: "/omi.jpg",
     source_code_link: "https://getomiie.com",
@@ -177,48 +178,48 @@ const projects = [
   {
     name: "portfolio à vendre👌",
     description:
-      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+      "Portfolio interactif présentant mes réalisations et permettant aux clients de découvrir mes services et tarifs.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "tailwindCSS", color: "green-text-gradient" },
-      { name: "scss", color: "pink-text-gradient" },
+     
     ],
     image: "/pp.jpg",
     source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
   },
   {
-    name: "Omiie Technologies",
+    name: "Njimoluxe Meubles",
     description:
-      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+      "Application web pour la présentation des services de menuiserie, la consultation des tarifs et la commande de produits sur mesure.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "tailwindCSS", color: "green-text-gradient" },
-      { name: "scss", color: "pink-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
     ],
-    image: "/omi.jpg",
+    image: "/menuiserie.jpeg",
     source_code_link: "https://ndjimolux.getomiie.com",
   },
   {
-    name: "ToDo Liste Complete👌",
+    name: "Elearning Full App👌",
     description:
-      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+      "Plateforme web pour découvrir mes cours, suivre des formations en ligne et accéder à des ressources pédagogiques.",
     tags: [
       { name: "Laravel", color: "pink-text-gradient" },
-      { name: "React", color: "blue-text-gradient" },
+      { name: "Next.js", color: "blue-text-gradient" },
       { name: "TailwindCSS", color: "green-text-gradient" },
-      { name: "Scss", color: "pink-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
     ],
-    image: "/vr.png",
+    image: "/study.jpeg",
     source_code_link: "https://frankamdev.getomiie.com",
   },
   {
     name: "Projets En Graphisme",
     description:
-      "Projets personnels (Jeux applications, sites web, etc.) développé en javascript sur GitHub, démontrant mes compétences dans ce domaine.",
+      "Découvrez mes réalisations graphiques et mes projets créatifs.",
     tags: [
-      { name: "reactjs", color: "blue-text-gradient" },
-      { name: "typescript", color: "green-text-gradient" },
-      { name: "javascript", color: "pink-text-gradient" },
+      { name: "Photoshop", color: "blue-text-gradient" },
+      { name: "Figma", color: "green-text-gradient" },
+     
     ],
     image: "/graphism.avif",
     source_code_link: "/infographie",
