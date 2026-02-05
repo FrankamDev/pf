@@ -91,6 +91,7 @@ import lgShare from "lightgallery/plugins/share";
 
 
  import "./gallery.css";
+import Navbar from "./Navbar";
 
 const images = [
   { src: "/1.jpg", alt: "Image 1" },
@@ -123,6 +124,8 @@ const images = [
 
 export default function Gallery() {
   return (
+    <>
+    <Navbar/>
     <section className="py-8 md:py-20 bg-gradient-to-b from-gray-950 to-black">
       <div className="  px-4 sm:px-6 lg:px-8">
         {/* Titre */}
@@ -145,7 +148,7 @@ export default function Gallery() {
         lgFullscreen,
         lgZoom
       ]}
-    >
+      >
       {images.map((image, index) => (
         <a className="" key={index} href={image.src}>
           <img src={image.src} alt={image.alt} />
@@ -154,5 +157,6 @@ export default function Gallery() {
     </LightGallery>
       </div>
     </section>
+      </>
   );
 }
