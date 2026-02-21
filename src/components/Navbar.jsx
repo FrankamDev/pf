@@ -345,10 +345,10 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { id: 1, title: "Accueil", link: "/" },
-  { id: 2, title: "À propos", link: "/about" },
-  { id: 3, title: "Infographie", link: "/infographie" },
-  { id: 4, title: "Projets", link: "/projects" },
-  { id: 5, title: "Contact",  link: "/contact" },
+  { id: 2, title: "À propos", link: "about" },
+  { id: 3, title: "Infographie", link: "infographie" },
+  { id: 4, title: "Projets", link: "projects" },
+  { id: 5, title: "Contact",  link: "contact" },
 ];
 
 const Navbar = () => {
@@ -398,7 +398,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between">
-          {/* LOGO */}
+       
           <Link
             to="/"
             className="flex items-center gap-2 group z-[110]"
@@ -409,7 +409,7 @@ const Navbar = () => {
             }}
           >
             <div className="w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-                <span className="text-white font-black text-xl">F</span>
+            <img src="/banner.jpg" alt="logo" className=" h-10 bg-cyan-500 rounded-lg flex items-center justify-center group-hover:rotate-12 transition-transform duration-300" />
             </div>
             <span className="text-xl md:text-2xl font-bold tracking-tight text-white">
               Frankam<span className="text-cyan-400">Dev</span>
@@ -419,9 +419,9 @@ const Navbar = () => {
           {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((nav) => (
-              <Link
+              <a
                 key={nav.id}
-                to={nav.link}
+                href={`#${nav.link}`}
                 className={`
                   text-sm font-medium transition-all duration-300 relative py-2
                   ${active === nav.title ? "text-cyan-400" : "text-gray-300 hover:text-white"}
@@ -435,13 +435,13 @@ const Navbar = () => {
                     ${active === nav.title ? "w-full" : "w-0"}
                   `}
                 />
-              </Link>
+              </a>
             ))}
             
             {/* Bouton d'action optionnel pour équilibrer le design */}
-            <button className="ml-4 px-5 py-2 bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 rounded-full text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all">
+            <Link to='#projects' className="ml-4 px-5 py-2 bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 rounded-full text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all">
               Démarrer un projet
-            </button>
+            </Link>
           </div>
 
           {/* MOBILE TOGGLE */}
@@ -485,9 +485,9 @@ const Navbar = () => {
           {/* <button className="mt-4 px-8 py-3 bg-cyan-500 text-white rounded-full font-bold">
             Démarrer un projet
           </button> */}
-          <button className="ml-4 px-5 py-2 bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 rounded-[4px] text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all">
+          <a href='#contact' className="ml-4 px-5 py-2 bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 rounded-[4px] text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all">
               Démarrer un projet
-            </button>
+            </a>
         </div>
       </div>
     </nav>

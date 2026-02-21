@@ -95,7 +95,7 @@ import Navbar from "./Navbar";
 
 const images = [
   { src: "/flyer.png", alt: "Image 1" },
-  { src: "/2.jpeg", alt: "Image 2" },
+  { src: "/logo-jj.png", alt: "Image 2" },
   { src: "/3.jpeg", alt: "Image 3" },
   { src: "/4.jpeg", alt: "Image 4" },
   { src: "/1.jpg", alt: "Image 5" },
