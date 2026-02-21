@@ -26,7 +26,7 @@ const ScrollProgress = () => {
       {/* Barre de progression */}
       <div className="fixed top-0 left-0 w-full h-4 bg-white/10 z-50">
         <div
-          className="h-full bg-cyan-400 flex items-center justify-end pr-2 text-white font-bold transition-all duration-200"
+          className="h-full bg-cyan-400 flex rounded-full items-center justify-end pr-2 text-white font-bold transition-all duration-200"
           style={{ width: `${scrollPercent}%` }}
         >
           {Math.round(scrollPercent)}%
