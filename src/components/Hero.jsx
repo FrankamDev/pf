@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
     <div className="fixed inset-0 z-0 pointer-events-none">
-        <Particles
+        {/* <Particles
 
           particleColors={["#ffffff", "#60a5fa", "#38bdf8", "#a5b4fc"]}
           particleCount={600}
@@ -18,10 +18,10 @@ const Hero = () => {
           alphaParticles={true}
           disableRotation={false}
           pixelRatio={window.devicePixelRatio || 1}
-        />
+        /> */}
       </div>
     <section className="relative w-full min-h-screen flex flex-col justify-center bg-gradient-to-br from-gray-950 via-indigo-950/30 to-gray-950 pt-16 md:pt-20 lg:pt-24 pb-16 md:pb-20">
-      {/* Fond décoratif subtil */}
+      
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -left-40 top-10 sm:top-20 w-80 sm:w-96 h-80 sm:h-96 bg-purple-600/10 rounded-full blur-3xl animate-pulse-slow"></div>
         <div className="absolute right-0 bottom-0 sm:-bottom-20 w-72 sm:w-96 h-72 sm:h-96 bg-indigo-500/10 rounded-full blur-3xl animate-pulse-slow delay-2000"></div>

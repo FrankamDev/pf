@@ -346,7 +346,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { id: 1, title: "Accueil", link: "/" },
   { id: 2, title: "À propos", link: "about" },
-  { id: 3, title: "Infographie", link: "infographie" },
+  // { id: 3, title: "Infographie", link: "infographie" },
   { id: 4, title: "Projets", link: "projects" },
   { id: 5, title: "Contact",  link: "contact" },
 ];
