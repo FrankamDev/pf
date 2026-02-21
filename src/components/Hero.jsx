@@ -74,7 +74,7 @@ const Hero = () => {
 
               <div className="space-y-6 md:space-y-8">
                 <h1 className={`${styles.heroHeadText} text-white leading-tight tracking-tight`}>
-                  Salut, je suis{" "}
+                  Yo, je suis{" "}
                   <span className="text-[#915EFF]">Frank Kamgang</span>
                 </h1>
 
@@ -83,7 +83,7 @@ const Hero = () => {
                 </p>
 
                 <p className="text-lg md:text-xl text-gray-400 font-light">
-                  React • Next.js • Three.js • TypeScript • Tailwind • UI/UX
+                  React • Next.js • Three.js • TypeScript • Tailwind • UI/UX • Laravel
                 </p>
               </div>
             </div>

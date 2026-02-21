@@ -138,7 +138,14 @@ function Footer() {
             <h3 className="text-3xl font-bold text-cyan-300 mb-3">Frank Kamgang</h3>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
               Développeur Web & Graphiste <br />
-              Passionné par <span className="text-cyan-400 font-semibold">React</span>, <span className="text-cyan-400 font-semibold">Laravel</span> et le design.
+              Passionné par <span className="text-cyan-400 font-semibold">React</span>, <span className="text-cyan-400 font-semibold">Laravel</span> <div className="group cursor-default flex items-center gap-1 font-black uppercase tracking-tighter">
+  <span className="bg-gradient-to-b from-white via-slate-400 to-slate-900 bg-clip-text text-transparent transition-all duration-500 group-hover:via-cyan-300 group-hover:to-blue-600">
+    Design
+  </span>
+  <span className="text-4xl text-cyan-500 animate-pulse drop-shadow-[0_0_15px_rgba(6,182,212,0.8)]">
+    .
+  </span>
+</div>
             </p>
           </div>
 

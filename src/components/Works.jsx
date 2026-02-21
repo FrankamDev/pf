@@ -110,7 +110,7 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
-    <div id="projet" className="bg-white/5  backdrop-blur-sm border border-white/10 rounded-3xl p-4 sm:p-5 w-full max-w-[90vw] sm:max-w-[360px] mx-2 sm:mx-0 shadow-sm flex flex-col items-center transition-all duration-300 hover:shadow-md">
+    <div id="projects" className="bg-white/5  backdrop-blur-sm border border-white/10 rounded-3xl p-4 sm:p-5 w-full max-w-[90vw] sm:max-w-[360px] mx-2 sm:mx-0 shadow-sm flex flex-col items-center transition-all duration-300 hover:shadow-md">
       
       {/* Trait minimaliste haut */}
       <div className="w-12 h-[2px] bg-white/40 rounded-full mb-4"></div>

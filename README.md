@@ -3,7 +3,7 @@
 Portfolio professionnel de **Frank Kamgang**, développeur web et graphiste.  
 Il présente mes compétences, projets et moyens de contact.
 
-🔗 **Site en ligne** : https://portfolioo-beta-wine.vercel.app/
+🔗 **Site en ligne** : https://online.getomiie.com
 
 ---
 
