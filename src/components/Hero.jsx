@@ -74,12 +74,12 @@ const Hero = () => {
 
               <div className="space-y-6 md:space-y-8    ">
                 <h1 className={`${styles.heroHeadText} text-white leading-tight tracking-tight`}>
-                <span className="bg-gradient-to-b from-white via-slate-800 to-blue-500 bg-clip-text text-transparent transition-all duration-500 group-hover:via-cyan-300 group-hover:to-blue-600">Yo, je suis</span> {" "}
+                <span className="bg-gradient-to-b from-white via-slate-800 to-blue-500 bg-clip-text text-transparent transition-all duration-500 group-hover:via-cyan-300 group-hover:to-blue-600">Salut, je suis</span> {" "}
                   <span className="text-[#915EFF]">Frank Kamgang</span>
                 </h1>
 
                 <p className={`${styles.heroSubText} mt-4 text-gray-200 max-w-3xl leading-relaxed`}>
-                  Je crée des expériences numériques modernes : interfaces utilisateur soignées, animations 3D immersives et applications web performantes.
+                  Je crée des expériences numériques modernes Full-Stack  : interfaces utilisateur soignées, animations 3D immersives et applications web performantesgrace à des technologies telles que React.s, Next.js, Laravel, Three.js, TypeScript, Tailwind CSS, etc.
                 </p>
 
                 <p className="text-lg md:text-xl text-gray-400 font-light">
