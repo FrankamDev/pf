@@ -52,7 +52,7 @@ const App = () => {
       }
     />
 
-    <Route path="/#infographie" element={<Gallery />} />
+    <Route path="/infographie" element={<Gallery />} />
    
 
   </Routes>

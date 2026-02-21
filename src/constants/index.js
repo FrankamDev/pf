@@ -197,7 +197,7 @@ const projects = [
       { name: "CSS", color: "pink-text-gradient" },
     ],
     image: "/menuiserie.jpeg",
-    source_code_link: "https://ndjimolux.getomiie.com",
+    source_code_link: "https://ndjimoluxe.getomiie.com",
   },
   {
     name: "Elearning Full App👌",
