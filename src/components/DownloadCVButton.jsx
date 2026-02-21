@@ -289,6 +289,7 @@ export default function DownloadCVButton({
       }}
       className={`
         ${className}
+        mt-20
         relative inline-flex items-center justify-center gap-4 rounded-3xl
         bg-gradient-to-r from-[#1a1f3d] via-[#312e81] to-[#5b21b6]
         text-white font-semibold px-8 py-5 overflow-hidden border border-white/10
