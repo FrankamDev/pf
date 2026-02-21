@@ -168,36 +168,38 @@ const projects = [
       "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
     tags: [
       { name: "Laravel", color: "blue-text-gradient" },
-      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "Next.js", color: "cyan-text-gradient" },
       { name: "TailwindCSS", color: "green-text-gradient" },
       { name: "CSS", color: "pink-text-gradient" },
     ],
     image: "/omi.jpg",
     source_code_link: "https://getomiie.com",
   },
-  {
-    name: "portfolio à vendre👌",
-    description:
-      "Portfolio interactif présentant mes réalisations et permettant aux clients de découvrir mes services et tarifs.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "tailwindCSS", color: "green-text-gradient" },
+  // {
+  //   name: "portfolio à vendre👌",
+  //   description:
+  //     "Portfolio interactif présentant mes réalisations et permettant aux clients de découvrir mes services et tarifs.",
+  //   tags: [
+  //     { name: "React", color: "blue-text-gradient" },
+  //     { name: "TailwindCSS", color: "green-text-gradient" },
      
-    ],
-    image: "/pp.jpg",
-    source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
-  },
+  //   ],
+  //   image: "/pp.jpg",
+  //   source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
+  // },
   {
     name: "Njimoluxe Meubles",
     description:
       "Application web pour la présentation des services de menuiserie, la consultation des tarifs et la commande de produits sur mesure.",
     tags: [
       { name: "React", color: "blue-text-gradient" },
+      { name: "Laravel", color: "cyan-text-gradient" },
+      { name: "Inertia.js", color: "teal-text-gradient" },
       { name: "TailwindCSS", color: "green-text-gradient" },
       { name: "CSS", color: "pink-text-gradient" },
     ],
     image: "/menuiserie.jpeg",
-    source_code_link: "https://ndjimoluxe.getomiie.com",
+    source_code_link: "https://njimoluxe.getomiie.com",
   },
   {
     name: "Elearning Full App👌",
