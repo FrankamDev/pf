@@ -72,9 +72,9 @@ const Hero = () => {
                 <div className="w-1 h-48 sm:h-64 lg:h-80 violet-gradient" />
               </div>
 
-              <div className="space-y-6 md:space-y-8">
+              <div className="space-y-6 md:space-y-8    ">
                 <h1 className={`${styles.heroHeadText} text-white leading-tight tracking-tight`}>
-                  Yo, je suis{" "}
+                <span className="bg-gradient-to-b from-white via-slate-800 to-blue-500 bg-clip-text text-transparent transition-all duration-500 group-hover:via-cyan-300 group-hover:to-blue-600">Yo, je suis</span> {" "}
                   <span className="text-[#915EFF]">Frank Kamgang</span>
                 </h1>
 
