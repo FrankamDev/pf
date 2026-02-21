@@ -53,6 +53,10 @@ const App = () => {
     />
 
     <Route path="/infographie" element={<Gallery />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/experience" element={<Experience />} />
+    <Route path="/projects" element={<Works />} />
 
   </Routes>
 </BrowserRouter>

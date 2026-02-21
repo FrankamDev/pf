@@ -126,7 +126,7 @@ export default function Gallery() {
   return (
     <>
     <Navbar/>
-    <section className="py-8 md:py-20 bg-gradient-to-b from-gray-950 to-black">
+    <section className="py-8 md:py-20  bg-gradient-to-b from-gray-950 to-black">
       <div className="  px-4 sm:px-6 lg:px-8">
         {/* Titre */}
         <div className="text-center mb-12">

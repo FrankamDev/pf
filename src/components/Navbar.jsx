@@ -344,11 +344,11 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { id: "acceuil", title: "Accueil" },
-  { id: "about", title: "À propos" },
-  { id: "infographie", title: "Infographie" },
-  { id: "project", title: "Projets" },
-  { id: "contact", title: "Contact" },
+  { id: 1, title: "Accueil", link: "/" },
+  { id: 2, title: "À propos", link: "/about" },
+  { id: 3, title: "Infographie", link: "/infographie" },
+  { id: 4, title: "Projets", link: "/projects" },
+  { id: 5, title: "Contact",  link: "/contact" },
 ];
 
 const Navbar = () => {
@@ -419,9 +419,9 @@ const Navbar = () => {
           {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((nav) => (
-              <a
+              <Link
                 key={nav.id}
-                href={`#${nav.id}`}
+                to={nav.link}
                 className={`
                   text-sm font-medium transition-all duration-300 relative py-2
                   ${active === nav.title ? "text-cyan-400" : "text-gray-300 hover:text-white"}
@@ -435,7 +435,7 @@ const Navbar = () => {
                     ${active === nav.title ? "w-full" : "w-0"}
                   `}
                 />
-              </a>
+              </Link>
             ))}
             
             {/* Bouton d'action optionnel pour équilibrer le design */}
@@ -464,9 +464,9 @@ const Navbar = () => {
       >
         <div className="flex flex-col items-center gap-8">
           {navLinks.map((nav, index) => (
-            <a
+            <Link
               key={nav.id}
-              href={`#${nav.id}`}
+              to={nav.link}
               style={{ transitionDelay: `${index * 50}ms` }}
               className={`
                 text-3xl font-bold transition-all transform
@@ -479,7 +479,7 @@ const Navbar = () => {
               }}
             >
               {nav.title}
-            </a>
+            </Link>
           ))}
           
           {/* <button className="mt-4 px-8 py-3 bg-cyan-500 text-white rounded-full font-bold">
