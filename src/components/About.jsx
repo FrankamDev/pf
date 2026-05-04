@@ -6,7 +6,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon, explication }) => {
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
   return (
@@ -23,7 +23,18 @@ const ServiceCard = ({ index, title, icon }) => {
       >
         <div id="about" className="bg-[#151030] backdrop-blur-md rounded-xl py-6 px-6 flex flex-col items-center justify-center min-h-[280px] hover:scale-105 transition-transform duration-300">
           <img src={icon} alt={title} className="w-14 h-14 mb-4 object-contain" />
-          <h3 className="text-white text-lg font-semibold text-center">{title}</h3>
+   <div className="text-center space-y-3">
+  <h3 className="text-white text-lg font-semibold tracking-wide hover:text-blue-400 transition">
+    {title}
+  </h3>
+<span className="block w-12 h-[2px] mx-auto mt-2 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 shadow-[0_0_10px_rgba(34,211,238,0.6)]"></span>
+
+  <p className="text-gray-400 text-sm leading-relaxed max-w-[260px] mx-auto">
+    {explication}
+  </p>
+</div>
+
+
         </div>
       </motion.div>
     </Tilt>
