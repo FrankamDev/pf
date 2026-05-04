@@ -188,18 +188,18 @@ const projects = [
   //   source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
   // },
   {
-    name: "Njimoluxe Meubles",
+    name: "Takoly Immobilier",
     description:
-      "Application web pour la présentation des services de menuiserie, la consultation des tarifs et la commande de produits sur mesure.",
+      "Application web pour promouvoir des biens immobilier dans toutes les villes du cameroun à des prix concurrenciels",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
+      { name: "NextJS", color: "blue-text-gradient" },
       { name: "Laravel", color: "cyan-text-gradient" },
-      { name: "Inertia.js", color: "teal-text-gradient" },
+      // { name: "Inertia.js", color: "teal-text-gradient" },
       { name: "TailwindCSS", color: "green-text-gradient" },
-      { name: "CSS", color: "pink-text-gradient" },
+      { name: "SCSS", color: "pink-text-gradient" },
     ],
-    image: "/menuiserie.jpeg",
-    source_code_link: "https://njimoluxe.getomiie.com",
+    image: "/immobilier.jpg",
+    source_code_link: "https://takoly.com",
   },
   {
     name: "Elearning Full App👌",

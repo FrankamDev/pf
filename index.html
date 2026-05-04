@@ -21,7 +21,7 @@
     <meta name="theme-color" content="#1a73e8" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://portfolio.devfack.com/" />
+    <link rel="canonical" href="https://online.getomiie.com/" />
 
     <!-- Favicon and Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -29,10 +29,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1a73e8" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
 
     <!-- ✅ Sécurité CSP fusionnée et corrigée -->
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="
         default-src 'self';
@@ -40,8 +40,15 @@
         style-src 'self' 'unsafe-inline';
         img-src 'self' data: https://portfolio.devfack.com https://via.placeholder.com;
       "
-    />
-
+    /> -->
+<meta http-equiv="Content-Security-Policy" content="
+default-src 'self';
+script-src 'self' 'unsafe-inline' 'unsafe-eval';
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+font-src 'self' data: https://fonts.gstatic.com;
+img-src 'self' data:;
+connect-src 'self' http://localhost:3000 ws://localhost:3000;
+">
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Frank Kamgang | Développeur Web & Graphiste" />
     <meta
@@ -101,9 +108,9 @@
     </script>
 
     <!-- Performance -->
-    <link rel="preload" href="/src/main.jsx" as="script" />
-    <link rel="dns-prefetch" href="https://portfolio.devfack.com/" />
-    <link rel="preconnect" href="https://portfolio.devfack.com/" crossorigin />
+    <!-- <link rel="preload" href="/src/main.jsx" as="script" /> -->
+    <link rel="dns-prefetch" href="https://online.getomiie.com/" />
+    <link rel="preconnect" href="https://online.getomiie.com" crossorigin />
   </head>
 
   <body>
