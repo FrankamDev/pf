@@ -261,8 +261,8 @@ import { motion } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 
 export default function DownloadCVButton({
-  href = "/public/cv.pdf",
-  fileName = "cv.pdf",
+  href = "frank.html",
+  fileName = "frank.html",
   className = "",
 }) {
   const [hovered, setHovered] = useState(false);

@@ -181,7 +181,7 @@ function Footer() {
 
         {/* Bas de page */}
         <div className="mt-10 border-t border-white/10 pt-4 text-center text-gray-400 text-sm">
-          &copy; 2025 Frank Kamgang. Tous droits réservés.
+          &copy; 2026 Frank Kamgang. Tous droits réservés.
         </div>
       </div>
     </footer>
