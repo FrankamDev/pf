@@ -4,7 +4,11 @@ Options -MultiViews
   RewriteEngine On
   RewriteBase /
 
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+  # Si fichier ou dossier existe → le servir normalement
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Sinon → React (SPA)
   RewriteRule ^ index.html [L]
 </IfModule>
