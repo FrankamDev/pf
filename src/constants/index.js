@@ -206,6 +206,18 @@ const projects = [
     image: "/graphism.avif",
     source_code_link: "/infographie",
   },
+  {
+    name: "Désinfections & Dératisation",
+    description:
+      "Application de désinfection.",
+    tags: [
+      { name: "Photoshop", color: "blue-text-gradient" },
+      { name: "Figma", color: "green-text-gradient" },
+     
+    ],
+    image: "/graphism.avif",
+    source_code_link: "https://nexora.getomiie.com",
+  },
     {
     name: "Elearning Full App👌",
     description:
