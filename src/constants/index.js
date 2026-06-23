@@ -180,6 +180,20 @@ const projects = [
     image: "/immobilier.jpg",
     source_code_link: "https://takoly.com",
   },
+   {
+    name: "Service de coiffure",
+    description:
+      "Application web pour promouvoir desdes services de coiffure, vente de produits cosmétiques et soins de la peau",
+    tags: [
+      { name: "ReactJS", color: "blue-text-gradient" },
+      // { name: "Laravel", color: "cyan-text-gradient" },
+      // { name: "Inertia.js", color: "teal-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "SCSS", color: "pink-text-gradient" },
+    ],
+    image: "/immobilier.jpg",
+    source_code_link: "https://coiffure.getomiie.com",
+  },
   {
     name: "Projets En Graphisme",
     description:
