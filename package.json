@@ -1,7 +1,7 @@
 {
   "name": "3dfolio",
   "private": false,
-  "homepage": "https://Frankam487.github.io/FrankamDev",
+  "homepage": "https://online.getomiie.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -16,6 +16,7 @@
     "@react-three/drei": "9.122.0",
     "@react-three/fiber": "8.18.0",
     "@splinetool/react-spline": "^4.1.0",
+    "esbuild": "^0.28.1",
     "framer-motion": "9.1.7",
     "lightgallery": "^2.9.0",
     "lucide-react": "^0.563.0",
