@@ -191,7 +191,7 @@ const projects = [
       { name: "TailwindCSS", color: "green-text-gradient" },
       { name: "SCSS", color: "pink-text-gradient" },
     ],
-    image: "/immobilier.jpg",
+    image: "/coiffure.jpg",
     source_code_link: "https://coiffure.getomiie.com",
   },
   {
@@ -215,7 +215,7 @@ const projects = [
       { name: "Figma", color: "green-text-gradient" },
      
     ],
-    image: "/graphism.avif",
+    image: "/pest.jpg",
     source_code_link: "https://nexora.getomiie.com",
   },
     {
